@@ -1,0 +1,47 @@
+render counter =73
+key down
+render counter =74
+SEQUENCE: GameState constructor
+SEQUENCE: Level 1 constructor
+Grid is now null
+SEQUENCE: change state
+com.luisvillazon.game.state.Level1State@56443493
+SEQUENCE: init GameState
+SEQUENCE: init Sidebar
+>>> Level1 update commencing
+>>> Level1 update complete
+SEQUENCE: SidebarPanel constructor name= 
+Grid now =null
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+Exception in thread "Game Thread" java.lang.NullPointerException
+	at com.luisvillazon.game.state.GameState.drawTextOverlay(GameState.java:170)
+	at com.luisvillazon.game.state.GameState.render(GameState.java:272)
+	at com.luisvillazon.game.state.Level1State.render(Level1State.java:58)
+	at com.luisvillazon.game.main.Game.run(Game.java:92)
+	at java.lang.Thread.run(Thread.java:748)
+SEQUENCE: SidebarPanel constructor name= 
+SIDEBAR OK!
+Grid=null
+SEQUENCE: PowerGrid constructor
+SEQUENCE: SidebarPanel constructor name=Grid Output
+SEQUENCE: Meter constructor
+adding to panel 0
+SEQUENCE: SidebarPanel constructor name=Grid Demand
+adding to panel 1
+Grid=com.luisvillazon.game.model.PowerGrid@67cfa86b
+GRID OK!
+SEQUENCE: init Level 1
+SEQUENCE: SidebarPanel constructor name=Didcot coal-fired
+Adding station coal station to grid...
+Connecting coal station to the grid
+adding to panel 2
+...added successfully.
+Connecting house to the grid
+Connecting houseto demand graph ui
+SEQUENCE: DemandGraph constructor
+Connecting factory to the grid
+Connecting factoryto demand graph ui
+SEQUENCE: DemandGraph constructor
+SEQUENCE: Building meter needle points array

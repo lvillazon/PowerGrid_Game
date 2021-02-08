@@ -1,0 +1,43 @@
+render counter =107
+SEQUENCE: GameState constructor
+SEQUENCE: Level 1 constructor
+SEQUENCE: change state
+com.luisvillazon.game.state.Level1State@12e126a1
+SEQUENCE: init GameState
+SEQUENCE: init Sidebar
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+SEQUENCE: SidebarPanel constructor name= 
+SIDEBAR OK!
+Grid=null
+SEQUENCE: PowerGrid constructor
+SEQUENCE: SidebarPanel constructor name=Grid Output
+SEQUENCE: Meter constructor
+adding to panel 0
+SEQUENCE: SidebarPanel constructor name=Grid Demand
+adding to panel 1
+Grid=com.luisvillazon.game.model.PowerGrid@163ce78
+GRID OK!
+SEQUENCE: init Level 1
+SEQUENCE: SidebarPanel constructor name=Didcot coal-fired
+SEQUENCE: Building meter needle points array
+Adding station coal station to grid...
+Connecting coal station to the grid
+adding to panel 2
+...added successfully.
+Connecting house to the grid
+Connecting houseto demand graph ui
+SEQUENCE: DemandGraph constructor
+Connecting factory to the grid
+Connecting factoryto demand graph ui
+SEQUENCE: DemandGraph constructor
+Grid now =com.luisvillazon.game.model.PowerGrid@163ce78
+>>> Level1 update commencing
+Station:com.luisvillazon.game.model.CoalFired@32c676ab
+Consumer:com.luisvillazon.game.model.House@15f027d5
+Consumer:com.luisvillazon.game.model.Factory@4286f732
+GRID IS OK!
+>>> Level1 update complete
+Grid now =com.luisvillazon.game.model.PowerGrid@163ce78
